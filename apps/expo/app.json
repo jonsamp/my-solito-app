@@ -5,12 +5,9 @@
     "version": "1.0.0",
     "sdkVersion": "44.0.0",
     "scheme": "solito-blank",
-    "platforms": [
-      "ios",
-      "android"
-    ],
+    "platforms": ["ios", "android"],
     "ios": {
-      "bundleIdentifier": "com.solito.blank"
+      "bundleIdentifier": "com.solito.jonsamp"
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
