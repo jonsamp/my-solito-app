@@ -27,4 +27,4 @@ jobs:
         run: yarn install
       - name: Publish update
         working-directory: apps/expo
-        run: eas update --auto
+        run: eas update --branch my-branch --message "my message"
