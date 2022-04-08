@@ -3,7 +3,7 @@ on: push
 
 defaults:
   run:
-    working-directory: apps/expo
+    working-directory: ./apps/expo
 
 jobs:
   update:
