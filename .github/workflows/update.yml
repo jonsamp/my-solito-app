@@ -26,4 +26,5 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Publish update
+        working-directory: apps/expo
         run: eas update --auto
