@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./apps/expo
+        working-directory: ../apps/expo
     steps:
       - name: Check for EXPO_TOKEN
         run: |
