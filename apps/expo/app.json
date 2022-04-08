@@ -5,9 +5,19 @@
     "version": "1.0.0",
     "sdkVersion": "44.0.0",
     "scheme": "solito-blank",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "ios": {
       "bundleIdentifier": "com.solito.blank"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "android": {},
+    "updates": {
+      "url": "https://u.expo.dev/f08fdbf6-0054-432f-bfa9-511977ca4653"
     }
   }
 }
